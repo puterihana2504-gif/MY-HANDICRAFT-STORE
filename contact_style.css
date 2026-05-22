@@ -1,0 +1,231 @@
+body
+  {
+    background-color:hsl(0, 100%, 78%);
+  }
+
+
+/* for navigation and menu bar */ 
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:hsl(0, 100%, 28%);
+    padding:20px 80px;
+}
+
+.logo{
+    color:#d4a373;
+    font-size:35px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#d4a373;
+}
+
+.header
+{
+   
+
+    text-align:center;
+
+    padding:30px 20px;
+
+    margin-bottom:0;
+    background:#ede0d4
+}
+
+.contact-info{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    padding:80px;
+
+    background:#ede0d4;
+
+    flex-wrap:wrap;
+}
+
+.info-box{
+
+    width:300px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.form-section{
+
+    padding:80px;
+
+    background:white;
+
+    text-align:center;
+}
+
+.form-section h2{
+
+    font-size:45px;
+
+    margin-bottom:40px;
+}
+
+form{
+
+    width:600px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+}
+
+form input,
+form select,
+form textarea{
+
+    padding:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:10px;
+
+    font-size:16px;
+}
+
+.radio-group{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+}
+
+.checkbox{
+
+    text-align:left;
+}
+
+form button{
+
+    padding:15px;
+
+    border:none;
+
+    background:#5c3d2e;
+
+    color:white;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    cursor:pointer;
+}
+
+form button:hover{
+
+    background:#d4a373;
+}
+
+footer{
+
+    background:hsl(0, 100%, 28%);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+footer h2{
+
+    margin-bottom:20px;
+}
+
+/* ================= TABLE SECTION ================= */
+
+.table-section{
+
+    padding:80px;
+
+    text-align:center;
+
+    background:#f7f1e5;
+}
+
+/* TITLE */
+
+.table-section h2{
+
+    font-size:40px;
+
+    margin-bottom:30px;
+
+    color:#5c3d2e;
+}
+
+/* TABLE */
+
+table{
+
+    width:80%;
+
+    margin:auto;
+
+    border-collapse:collapse;
+
+    background:white;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+table th{
+
+    background:#5c3d2e;
+
+    color:white;
+
+    padding:15px;
+}
+
+table td{
+
+    padding:15px;
+}
+
+table tr:nth-child(even){
+
+    background:#f2f2f2;
+}
+
+table tr:hover{
+
+    background:#ede0d4;
+}

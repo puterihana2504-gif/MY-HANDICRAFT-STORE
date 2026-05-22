@@ -1,0 +1,248 @@
+<!--HANDICRAFTS CONTACT (numPages=5)-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>-HANDICRAFTS STORE-</title>
+  <link rel="stylesheet" href="contact_style.css">
+  
+
+</head>
+
+<nav>
+    <!-- NAVIGATION BAR -->
+    <h1 style="color:hsl(0, 0%, 100%); font-size:40px;; "class="logo">
+        <b>MYSARA HANDISCRAFTS STORE</b>
+    </h1>
+
+    <!-- MENU OF FIVE PAGES-->
+    <ul>
+
+        <li><a href="Index.html">Home</a></li>
+
+        <li><a href="product.html">Products</a></li>
+
+        <li><a href="gallery.html">Gallery</a></li>
+
+        <li><a href="about.html">About</a></li>
+
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+<section class="header">
+    
+    <h1 style="text-align: center;"><b>MYSARA HANDICRAFTS GALLERY</b> </h1>
+
+    <p style="text-align: center;">
+        CONTACT US NOW! We would love to hear from you. Get in touch with us today.
+    </p>
+
+</section>
+
+<!-- ================= CUSTOMER SERVICE TABLE ================= -->
+
+<section class="table-section">
+
+    <h2>Customer Service Information</h2>
+
+    <table border="1">
+
+        <tr>
+
+            <th>Department</th>
+
+            <th>Contact Number</th>
+
+            <th>Operating Hours</th>
+
+        </tr>
+
+        <tr>
+
+            <td>Customer Service</td>
+
+            <td>+60123918526</td>
+
+            <td>9:00 AM - 6:00 PM</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Order Support</td>
+
+            <td>+60368051441</td>
+
+            <td>9:00 AM - 6:00 PM</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Delivery Support</td>
+
+            <td>+601562854</td>
+
+            <td>10:00 AM - 5:00 PM</td>
+
+        </tr>
+
+    </table>
+
+</section>
+
+<section class="contact-info">
+
+    <div class="info-box">
+
+        <h2>Phone</h2>
+
+        <p>+6012652835</p>
+
+        <a href="https://wa.me/60132805514" target="_blank">
+
+                Contact Customer Service
+
+        </a>
+
+    </div>
+
+    <div class="info-box">
+
+        <h2>Email</h2>
+
+        <p> mysaraStoreHQ@gmail.com</p>
+
+    </div>
+
+    <div class="info-box">
+
+        <h2>Location</h2>
+
+        <p>Kuala Lumpur, Malaysia</p>
+
+    </div>
+
+</section>
+
+<section class="form-section">
+
+    <h2>Send Us A Message</h2>
+
+    <form onsubmit="return validateForm()">
+
+        <!-- NAME -->
+
+        <label>Full Name</label>
+
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <!-- EMAIL -->
+
+        <label>Email Address</label>
+
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <!-- GENDER -->
+
+        <label>Gender</label>
+
+        <div class="radio-group">
+
+            <input type="radio" name="gender"> Male
+
+            <input type="radio" name="gender"> Female
+
+        </div>
+
+        <!-- DROPDOWN -->
+
+        <label>Favorite Craft</label>
+
+        <select>
+
+            <option>Batik</option>
+
+            <option>Pottery</option>
+
+            <option>Wood Carving</option>
+
+            <option>Woven Basket</option>
+
+        </select>
+
+        <!-- MESSAGE -->
+
+        <label>Message</label>
+
+        <textarea rows="5"></textarea>
+
+        <!-- CHECKBOX -->
+
+        <div class="checkbox">
+
+            <input type="checkbox">
+
+            Subscribe to newsletter
+
+        </div>
+
+        <!-- BUTTON -->
+
+        <button type="submit">
+
+            Submit
+
+        </button>
+
+    </form>
+
+</section>
+
+<script>
+
+function validateForm(){
+
+    let name = document.getElementById("name").value;
+
+    let email = document.getElementById("email").value;
+
+    if(name == ""){
+
+        alert("Please enter your name");
+
+        return false;
+    }
+
+    if(email == ""){
+
+        alert("Please enter your email");
+
+        return false;
+    }
+
+    alert("Form submitted successfully!");
+
+    return true;
+}
+
+</script>
+
+<footer>
+
+    <h2>MYSARA HANDICRAFTS STORE</h2>
+
+    <p>Email: mysaraStoreHQ@gmail.com</p>
+
+    <p>Phone: +6012621815</p>
+
+    <p>&COPY; 2026 All Rights Reserved</p>
+
+</footer>
+
+</html>

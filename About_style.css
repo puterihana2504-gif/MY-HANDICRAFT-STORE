@@ -1,0 +1,197 @@
+ body
+  {
+    background-color:hsl(0, 100%, 78%);
+  }
+
+
+/* for navigation and menu bar */ 
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:hsl(0, 100%, 28%);
+    padding:20px 80px;
+}
+
+.logo{
+    color:#d4a373;
+    font-size:35px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#d4a373;
+}
+
+.header
+{
+    text-align:center;
+
+    padding:30px 20px;
+
+    margin-bottom:0;
+    background:#ede0d4
+}
+
+.about-store{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:50px;
+
+    padding:80px;
+
+    background:white;
+}
+
+.about-text{
+
+    width:500px;
+}
+
+.about-text h2{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+}
+
+.mission{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    padding:80px;
+
+    background:#ede0d4;
+}
+
+.box{
+
+    width:400px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.founder{
+
+    padding:80px;
+
+    background:#ede0d4;
+
+    text-align:center;
+}
+
+
+
+.founder h2{
+
+    font-size:45px;
+
+    margin-bottom:50px;
+
+    color:#5c3d2e;
+}
+
+.founder-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:50px;
+
+    flex-wrap:wrap;
+}
+
+
+.founder-image img{
+
+    width:350px;
+
+    height:400px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+.founder-text{
+
+    width:500px;
+
+    text-align:left;
+}
+
+
+.founder-text h3{
+
+    font-size:40px;
+
+    color:#5c3d2e;
+
+    margin-bottom:10px;
+}
+
+.founder-text h4{
+
+    font-size:22px;
+
+    color:#d4a373;
+
+    margin-bottom:20px;
+}
+
+
+.founder-text p{
+
+    font-size:18px;
+
+    line-height:1.8;
+}
+
+footer{
+
+    background:hsl(0, 100%, 28%);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+footer h2{
+
+    margin-bottom:20px;
+}
